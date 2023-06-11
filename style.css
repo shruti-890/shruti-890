@@ -1,0 +1,926 @@
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+body{
+  font-size: 14px;
+  /* background-image: url(./images/pattern.svg); */
+}
+.col{
+  margin-left: 30px;
+}
+table,th,td{
+  border: 1px solid gray;
+  border-collapse: collapse;
+  }
+  th,td
+  {padding: 10px;}
+.card {
+    margin-left: 10px;
+}
+.card-body {
+ 
+  padding: 0.1rem;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+  font-size: 20px;
+}
+
+@media print
+{
+    #pager,
+    form,
+    .no-print
+    {
+        display: none !important;
+        height: 0;
+    }
+
+
+    .no-print, .no-print *{
+        display: none !important;
+        height: 0;
+    }
+}
+
+.banner img{
+  display: block;
+  width: 900px;
+  height:300px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+#whitebox1{
+  width: 50px;
+  height:30px;
+}
+#center-well1{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:blue;
+  color:blue;
+}
+#center-well2{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:blue;
+  color:blue;
+}
+#center-well3{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:blue;
+  color:blue;
+}
+#center-well4{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:blue;
+  color:blue;
+  /* height:50px; */
+  
+}
+/* PCM cards */
+#whitebox2{
+  width:50px;
+  height:30px;
+}
+#center-well5{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:crimson;
+  color:crimson;
+}
+#center-well6{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:crimson;
+  color:crimson;
+}
+#center-well7{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:crimson;
+  color:crimson;
+}
+#center-well8{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:crimson;
+  color:crimson;
+}
+/* DT cards */
+#whitebox3{
+  width:50px;
+  height:30px;
+}
+#center-well9{
+  position:absolute;
+  width: 70px;
+  border-style:solid;
+  border-color:#663399;
+  color:#663399;
+}
+#center-well10{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#663399;
+  color:#663399;
+}
+#center-well11{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#663399;
+  color:#663399;
+}
+/* ajp cards */
+#whitebox4{
+  width:50px;
+  height:30px;
+}
+#center-well12{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:deeppink;
+  color:deeppink;
+}
+#center-well13{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:deeppink;
+  color:deeppink;
+}
+#center-well14{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:deeppink;
+  color:deeppink;
+}
+/* UIP cards */
+#whitebox5{
+  width:50px;
+  height:30px;
+}
+#center-well15{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#1E90FF;
+  color:#1E90FF;
+}
+#center-well16{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#1E90FF;
+  color:#1E90FF;
+}
+
+/* EDC cards */
+#whitebox6{
+  width:50px;
+  height:30px;
+}
+#center-well18{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#228B22;
+  color:#228B22;
+}
+#center-well19{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#228B22;
+  color:#228B22;
+}
+/* IOM card */
+#whitebox7{
+  width:50px;
+  height:30px;
+}
+#center-well20{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:green;
+  color:green;
+}
+#center-well21{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:green;
+  color:green;
+}
+#center-well22{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:green;
+  color:green;
+}
+/* DBMS cards */
+#whitebox8{
+  width:50px;
+  height:30px;
+}
+#center-well23{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9400D3;
+  color:#9400D3;
+}
+#center-well24{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9400D3;
+  color:#9400D3;
+}
+#center-well25{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9400D3;
+  color:#9400D3;
+}
+#center-well26{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9400D3;
+  color:#9400D3;
+}
+/* E-maths cards */
+#whitebox9{
+  width:50px;
+  height:30px;
+}
+#center-well27{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#808000;
+  color:#808000;
+}
+#center-well28{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#808000;
+  color:#808000;
+}
+#center-well29{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#808000;
+  color:#808000;
+}
+/* linux cards */
+#whitebox10{
+  width:50px;
+  height:30px;
+}
+#center-well30{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:darkviolet;
+  color:darkviolet;
+}
+#center-well31{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:darkviolet;
+  color:darkviolet;
+}
+#center-well32{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:darkviolet;
+  color:darkviolet;
+}
+/* OS cards */
+#whitebox11{
+  width:50px;
+  height:30px;
+}
+#center-well33{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#FF00FF;
+  color:#FF00FF;
+}
+#center-well34{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#FF00FF;
+  color:#FF00FF;
+}
+#center-well92{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#FF00FF;
+  color:#FF00FF;
+}
+#center-well93{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#FF00FF;
+  color:#FF00FF;
+}
+/* E-phy cards */
+#whitebox12{
+  width:50px;
+  height:30px;
+}
+#center-well35{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#C71585;
+  color:#C71585;
+}
+#center-well36{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#C71585;
+  color:#C71585;
+}
+/* NA cards */
+#whitebox13{
+  width:50px;
+  height:30px;
+}
+#center-well37{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:orange;
+  color:orange;
+}
+/* DC cards */
+#whitebox14{
+  width:50px;
+  height:30px;
+}
+#center-well38{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9ACD32;
+  color:#9ACD32;
+}
+#center-well39{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9ACD32;
+  color:#9ACD32;
+}
+#center-well40{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9ACD32;
+  color:#9ACD32;
+}
+
+/* pic cards */
+#whitebox15{
+  width:50px;
+  height:30px;
+}
+#center-well42{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#000080;
+  color:#000080;
+}
+#center-well43{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#000080;
+  color:#000080;
+}
+#center-well44{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#000080;
+  color:#000080;
+}
+/* MM  cards */
+#whitebox16{
+  width:50px;
+  height:30px;
+}
+#center-well46{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#191970;
+  color:#191970;
+}
+/* BCM cards */
+#center-well45{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:red;
+  color:red;
+}
+/* DT cards */
+#whitebox17{
+  width:50px;
+  height:30px;
+}
+#center-well47{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#663399;
+  color:#663399;
+}
+#center-well48{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#663399;
+  color:#663399;
+}
+#center-well49{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#663399;
+  color:#663399;
+}
+
+/* practical blocks :start */
+/* python cards */
+#blackbox1{
+  
+  width: 50px;
+  height:30px;
+}
+#practical1
+{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:blue;
+  color:blue;
+}
+#practical2{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:blue;
+  color:blue;
+}
+#practical3{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:blue;
+  color:blue;
+}
+#practical44{
+  position:absolute;
+  width:70px;
+  border-style: solid;
+  border-color:blue;
+  color:blue;
+}
+/* AJP cards */
+#blackbox2{
+  width:50px;
+  height:30px;
+}
+#practical4{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:deeppink;
+  color:deeppink;
+}
+#practical5{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:deeppink;
+  color:deeppink;
+}
+#practical6{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:deeppink;
+  color:deeppink;
+}
+/* linux cards */
+#blackbox3{
+  width:50px;
+  height:30px;
+}
+#practical7{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:darkviolet;
+  color:darkviolet;
+}
+#practical8{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:darkviolet;
+  color:darkviolet;
+}
+#practical9{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:darkviolet;
+  color:darkviolet;
+}
+/* NA practical */
+#blackbox4{
+  width: 50px;;
+  height:30px;
+}
+#practical10{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:orange;
+  color:orange;
+}
+#practical11{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:orange;
+  color:orange;
+}
+#practical12{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:orange;
+  color:orange;
+}
+#practical13{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:orange;
+  color:orange;
+}
+#practical14{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:orange;
+  color:orange;
+}
+#practical15{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:orange;
+  color:orange;
+}
+/* BCM cards */
+#blackbox5{
+  width:50px;
+  height:30px;
+}
+#practical16{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:red;
+  color:red;
+}
+#practical17{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:red;
+  color:red;
+}
+#practical18{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:red;
+  color:red;
+}
+/* The end of practical cards for 3rd year */
+
+#blackbox6{
+  width:50px;
+  height:30px;
+}
+/* pcm practical card */
+#SY1{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:crimson;
+  color:crimson;
+}
+#SY2{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:crimson;
+  color:crimson;
+}
+#SY3{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:crimson;
+  color:crimson;
+}
+/* uip practical cards */
+#blackbox7{
+  width:50px;
+  height:30px;
+}
+#SY4{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#1E90FF;
+  color:#1E90FF;
+}
+#SY5{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#1E90FF;
+  color:#1E90FF;
+}
+#SY6{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#1E90FF;
+  color:#1E90FF;
+}
+/* DC cards */
+#blackbox8{
+  width:50px;
+  height:30px;
+}
+#SY7{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9ACD32;
+  color:#9ACD32;
+}
+#SY8{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9ACD32;
+  color:#9ACD32;
+}
+#SY9{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9ACD32;
+  color:#9ACD32;
+}
+/* DBMS cards */
+#blackbox9{
+  width:50px;
+  height:30px;
+}
+#SY10{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9400D3;
+  color:#9400D3;
+}
+#SY11{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9400D3;
+  color:#9400D3;
+}
+#SY12{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#9400D3;
+  color:#9400D3;
+}
+/* MM cards */
+#blackbox10{
+  width:50px;
+  height:30px;
+}
+#SY13{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#191970;
+  color:#191970;
+}
+#SY14{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#191970;
+  color:#191970;
+}
+#SY15{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#191970;
+  color:#191970;
+}
+/* DT cards */
+#blackbox11{
+  width:50px;
+  height:30px;
+}
+#FY1{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#663399;
+  color:#663399;
+}
+#FY2{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#663399;
+  color:#663399;
+}
+#FY3{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#663399;
+  color:#663399;
+}
+/* EDC cards */
+#blackbox12{
+  width:50px;
+  height:30px;
+}
+#FY4{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#228B22;
+  color:#228B22;
+}
+#FY5{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#228B22;
+  color:#228B22;
+}
+#FY6{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#228B22;
+  color:#228B22;
+}
+/* Wp cards */
+#blackbox13{
+  width:50px;
+  height:30px;
+}
+#FY7{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:darkviolet;
+  color:darkviolet;
+}
+#FY8{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:darkviolet;
+  color:darkviolet;
+}
+#FY9{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:darkviolet;
+  color:darkviolet;
+}
+/* e-phy cards */
+#blackbox14{
+  width:50px;
+  height:30px;
+}
+#FY10{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#C71585;
+  color:#C71585;
+}
+#FY11{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#C71585;
+  color:#C71585;
+}
+#FY12{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#C71585;
+  color:#C71585;
+}
+/* PIC cards */
+#blackbox15{
+  width:50px;
+  height:30px;
+}
+#FY13{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#000080;
+  color:#000080;
+}
+#FY14{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#000080;
+  color:#000080;
+}
+#FY15{
+  position:absolute;
+  width:70px;
+  border-style:solid;
+  border-color:#000080;
+  color:#000080;
+}
